@@ -1,0 +1,7 @@
+echo "# jafor-TechWave-assignment-two" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/jaforsheikh/jafor-TechWave-assignment-two.git
+git push -u origin master
