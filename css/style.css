@@ -3,3 +3,113 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+}
+/* nav bar */
+.main_header {
+  max-width: auto;
+  margin: 0 auto;
+  height: 750px;
+  background-image: url(../assets/hero-bg.png);
+  background-position: center;
+}
+.hero_section_all {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.responsive_task {
+  /* display: none; */
+}
+/* reusable */
+.button_button {
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(
+    50deg,
+    rgba(247, 233, 63, 1),
+    rgba(251, 9, 180, 1),
+    rgba(145, 0, 248, 1)
+  );
+}
+#navbar {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#navbar ul li {
+  list-style: none;
+}
+#navbar ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(20, 3, 3);
+  color: white;
+}
+#navbar .menu_bar {
+  display: flex;
+  gap: 30px;
+}
+#navbar span {
+  background: linear-gradient(
+    90deg,
+    rgba(251, 9, 180, 1),
+    rgba(145, 0, 248, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#navbar h2 {
+  color: white;
+}
+/* Hero Section */
+.circle_image {
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  padding-top: 20px;
+}
+.small_image {
+  position: absolute;
+  top: 15%;
+  right: 48%;
+}
+.text_section {
+  color: aliceblue;
+  text-align: center;
+  margin: 0 auto;
+}
+.techwave_hero {
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding: 10px;
+}
+.subscribe_button {
+  font-size: 1 rem;
+  font-weight: 500;
+  color: white;
+  background-color: rgba(240, 248, 255, 0);
+  padding: 8px 13px;
+  border: 2px solid rgb(0, 233, 0);
+  border-radius: 20px;
+}
+.fa-brands,
+.fa-regular {
+  padding-right: 5px;
+}
+.hero_button {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 15px;
+}
