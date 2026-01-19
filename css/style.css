@@ -21,12 +21,8 @@ body {
   background-image: url(../assets/hero-bg.png);
   background-position: center;
 }
-.hero_section_all {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.responsive_task {
-  /* display: none; */
+.responsive {
+  display: none;
 }
 /* reusable */
 .button_button {
@@ -41,6 +37,23 @@ body {
     rgba(145, 0, 248, 1)
   );
 }
+.spotify_button {
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(
+    50deg,
+    rgba(247, 233, 63, 1),
+    rgba(251, 9, 180, 1),
+    rgba(145, 0, 248, 1)
+  );
+}
+.section_all {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* nav-hero */
 #navbar {
   height: 90px;
   display: flex;
@@ -74,6 +87,9 @@ body {
   color: white;
 }
 /* Hero Section */
+.image_section {
+  position: relative;
+}
 .circle_image {
   margin: 0 auto;
   display: flex;
@@ -82,8 +98,18 @@ body {
 }
 .small_image {
   position: absolute;
-  top: 15%;
-  right: 48%;
+  top: 26%;
+  right: 46%;
+}
+.new_item {
+  position: absolute;
+  top: 10%;
+  right: 40%;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #00ff88;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 .text_section {
   color: aliceblue;
@@ -113,3 +139,348 @@ body {
   text-align: center;
   padding-top: 15px;
 }
+/* podcast */
+.podcast_background {
+  width: auto;
+  height: 635px;
+  background-color: rgba(26, 11, 46, 1);
+}
+.podcast_texts {
+  text-align: center;
+}
+.podcast_heading {
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-top: 10px 0;
+}
+.podcast_para {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 20px 150px;
+  line-height: 25px;
+}
+.line {
+  width: 100%;
+  height: 2px;
+  background: #74747448;
+  margin: 80px 0;
+}
+.number_podcast {
+  display: flex;
+  justify-content: space-evenly;
+}
+.number_green {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #00ff88;
+}
+.number_description {
+  color: white;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+/* why choose us */
+.why_choose_content_title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.why_choose_content_text {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.choose_us_background {
+  background-color: #230e3d;
+}
+.why_choose_us {
+  padding: 50px 0;
+}
+.why_choose_title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+  padding: 30px 0;
+}
+.grid_section {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: repeat(3, 225px);
+  gap: 20px;
+}
+.grid_one {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: start;
+  background-color: rgba(53, 17, 101, 0.4);
+  border-radius: 10px;
+  padding: 40px;
+  color: white;
+}
+.item_one {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+.item_two {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.item_three {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.item_four {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.item_five {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+/* Featured Episodes */
+.featured_episodes_background {
+  width: auto;
+  height: 1150px;
+  background-color: #1a0b2e;
+}
+.featured_episodes {
+}
+.card {
+  display: flex;
+  border-radius: 10px;
+  padding-bottom: 80px;
+}
+.border_redious {
+  border-radius: 15px 15px 0 0;
+  box-shadow: 0 0 40px rgba(139, 92, 246, 0.45);
+}
+.featured_title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+.card_title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  padding: 10px 0;
+}
+.card_texts {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-right: 30px;
+}
+.ghori_icon {
+  color: #00ff88;
+  padding-top: 20px;
+}
+.alex_kumar {
+  max-width: 1200px;
+  height: 270px;
+  display: flex;
+  background-color: #20024bb2;
+  padding: 30px 20px;
+  align-items: center;
+  border-radius: 30px;
+}
+.alex_kumar_details {
+  padding-left: 20px;
+}
+.social_media_icon {
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+}
+.alex_kumar_title {
+  color: white;
+}
+.alex_kumar_para {
+  color: white;
+  padding-top: 20px;
+}
+
+/* footer */
+.footer_background {
+  background-image: url(../assets/footer-bg.png);
+  background-position: center;
+  width: auto;
+  height: 412px;
+  margin: 0 auto;
+}
+.techwave_logo_footer {
+  height: 412px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding: 130px;
+}
+.techwave_logo_footer span {
+  background: linear-gradient(
+    90deg,
+    rgba(251, 9, 180, 1),
+    rgba(145, 0, 248, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.icon_social_footer {
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 0;
+}
+.padding_right {
+  padding-right: 8px;
+}
+.hamburger {
+  display: none;
+  background: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* Media Query Responsive Design */
+/* Nav Bar */
+@media screen and (max-width: 576px) {
+  .main_header {
+    grid-template-columns: repeat(1, 1fr);
+    background-image: url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 20px;
+  }
+  .hamburger {
+    display: block;
+  }
+  .navbar {
+    position: relative;
+  }
+  .menu_bar {
+    display: none;
+  }
+  .button_button {
+    display: none;
+  }
+  ul li {
+    display: none;
+  }
+  .spotify_button {
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(
+      50deg,
+      rgba(247, 233, 63, 1),
+      rgba(251, 9, 180, 1),
+      rgba(145, 0, 248, 1)
+    );
+  }
+  /* Hero */
+  .image_section {
+    position: relative;
+  }
+
+  .small_image {
+    position: absolute;
+    top: 26%;
+    right: 40%;
+  }
+  .new_item {
+    position: absolute;
+    top: 10%;
+    right: 25%;
+  }
+  /* podcast */
+  .podcast_heading {
+    color: white;
+    font-size: 2rem;
+  }
+  .podcast_para {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 20px 20px;
+    line-height: 25px;
+  }
+  .line {
+    width: 80%;
+    background: #74747448;
+    margin: 20px auto;
+  }
+  .number_podcast {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  /* Why choose */
+  .grid_section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    gap: 20px;
+  }
+  /* Featured */
+  .card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+    
+  }
+  .alex_kumar {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .featured_episodes_background {
+    width: auto;
+    height: 1800px;
+    background-color: #1a0b2e;
+  }
+  .card_title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    padding: 10px 30px 10px 10px;
+  }
+  .card_texts {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px 50px 10px 10px;
+  }
+  .border_redious{
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+  }
+/* Footer */
+
+.icon_social_footer {
+  display: flex;
+}
+
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+}
+
+background-size: cover; /* 🔥 responsive width */
+background-position: center;
+background-repeat: no-repeat;
+min-height: 100vh;
