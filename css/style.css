@@ -441,7 +441,6 @@ body {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     justify-content: center;
-    
   }
   .alex_kumar {
     max-width: 100%;
@@ -465,22 +464,24 @@ body {
     font-weight: 400;
     padding: 10px 50px 10px 10px;
   }
-  .border_redious{
+  .border_redious {
     width: 100%;
     height: 100%;
     padding: 10px 20px;
   }
-/* Footer */
+  /* Footer */
 
-.icon_social_footer {
-  display: flex;
-}
-
+  .icon_social_footer {
+    display: flex;
+  }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
+  main {
+    grid-template-columns: repeat(2, 2fr);
+    background-image: url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 20px;
+  }
 }
-
-background-size: cover; /* 🔥 responsive width */
-background-position: center;
-background-repeat: no-repeat;
-min-height: 100vh;
